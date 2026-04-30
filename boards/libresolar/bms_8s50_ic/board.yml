@@ -1,5 +1,6 @@
 board:
   name: bms_8s50_ic
+  full_name: Libre Solar BMS 8S50 IC
   vendor: libresolar
   socs:
     - name: stm32l452xx
@@ -7,5 +8,5 @@ board:
     format: major.minor.patch
     default: "0.2.0"
     revisions:
-    - name: "0.2.0"
-    - name: "0.1.0"
+      - name: "0.2.0"
+      - name: "0.1.0"

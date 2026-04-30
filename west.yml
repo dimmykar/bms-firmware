@@ -13,7 +13,7 @@ manifest:
   projects:
     - name: zephyr
       remote: zephyrproject
-      revision: v4.3-branch
+      revision: v4.4-branch
       import:
         name-allowlist:
           - cmsis_6
@@ -22,11 +22,12 @@ manifest:
           - hal_stm32
           - mbedtls
           - mcuboot
+          - tf-psa-crypto
           - tinycrypt
           - zcbor
     - name: thingset-zephyr-sdk
       remote: thingset
-      revision: 9784e05914a7b3270802c84c10f52a640c823348
+      revision: 8b32f7db1898dc51daa1834b3f8058de6a67166f
       path: thingset-zephyr-sdk
       import:
         name-allowlist:
